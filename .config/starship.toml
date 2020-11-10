@@ -1,0 +1,22 @@
+[aws]
+disabled = true
+
+[directory]
+truncate_to_repo = false
+
+[directory.substitutions]
+"~/github" = "github.com"
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+symbol = " "
+commit_hash_length = 4
+
+[nodejs]
+format = "via [$symbol$version]($style) "
+
+[package]
+format = "[$symbol$version]($style) "
+symbol = " "
